@@ -32,11 +32,3 @@ newItem('assets/sword.png','500px','405px')
 newItem('assets/sheild.png','165px','185px')
 newItem('assets/staff.png','600px','100px')
 
-function tile(url, left, bottom, width, height){
-    for(let h = 0; h < height; h++){
-        for(let w = 0; w < width; w++){
-            newImage(url, left + w*100, bottom+h*100)
-        }
-    }
-}
-
